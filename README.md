@@ -1,6 +1,5 @@
 # GetDataCourseProject
-Getting and Cleaning Data Course Project
-Maksym Gontar max.gontar@gmail.com
+Getting and Cleaning Data Course Project by Maksym Gontar, max.gontar@gmail.com
 
 ## Description
 This repository contains course project assignment for "Getting and Cleaning Data" course of Johns Hopkins University hosted on Coursera:  https://www.coursera.org/learn/data-cleaning
@@ -18,15 +17,15 @@ The repository contains following files:
 
 ## Code algorithm
 Code in run_analysis.R file can be grouped in following steps:
-1) setup variables, such as file names, column names, column types, column widths
-2) reading data from HARUSDS files
-3) combining data from different files and sets 
-4) extracting data for mean() and std() measurements
-5) assigning activity values as descriptive labels
-6) formatting column names
-7) saving final tidy dataset
-8) calculating average for every measurement grouped by activity and subject
-9) saving average tidy dataset
+1. setup variables, such as file names, column names, column types, column widths
+2. reading data from HARUSDS files
+3. combining data from different files and sets 
+4. extracting data for mean() and std() measurements
+5. assigning activity values as descriptive labels
+6. formatting column names
+7. saving final tidy dataset
+8. calculating average for every measurement grouped by activity and subject
+9. saving average tidy dataset
 
 Also see code commentaries in run_analysis.R
 
