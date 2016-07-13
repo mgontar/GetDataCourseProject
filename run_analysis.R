@@ -7,8 +7,8 @@ fn_y_test <- "UCI HAR Dataset/test/y_test.txt"
 fn_s_test <- "UCI HAR Dataset/test/subject_test.txt"
 fn_features <- "UCI HAR Dataset/features.txt"
 fn_act_lb <- "UCI HAR Dataset/activity_labels.txt"
-fn_data_final <- "data_final.csv"
-fn_data_avg <- "data_avg.csv"
+fn_data_final <- "data_final.txt"
+fn_data_avg <- "data_avg.txt"
 col_lb_act <- "activity"
 col_lb_s <- "subject"
 ct_X <- rep("double", 561)
@@ -59,11 +59,11 @@ col_lb_mean_std <- gsub("(-|\\(|\\))","", col_lb_mean_std)
 names(data) <- c(col_lb_mean_std, col_lb_act, col_lb_s)
 data <- data[, c(col_lb_s, col_lb_act, col_lb_mean_std)]
 # Write final tidy data set to file in csv format
-write.csv(data, fn_data_final, row.names = FALSE)
+write.table(data, fn_data_final, row.names = FALSE)
 
 # For easy grouped average use dplyr package
 library(dplyr)
 # Average of each variable for each activity and each subject
 data_avg <- data %>% group_by(activity, subject) %>% summarise_each(funs(mean))
 # Write average tidy data set to file in csv format
-write.csv(data_avg, fn_data_avg, row.names = FALSE)
+write.table(data_avg, fn_data_avg, row.names = FALSE)

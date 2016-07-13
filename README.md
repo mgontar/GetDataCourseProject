@@ -11,8 +11,8 @@ The assignment work requires Human Activity Recognition Using Smartphones Data S
 The repository contains following files:
 * `README.md`: This text
 * `run_analysis.R`: R code for assignment
-* `data_final.csv`: Result tidy dataset with mean and sd measurements, subject and activity from both training and the test sets in csv format
-* `data_avg.csv`: Result tidy dataset with the average of each variable for each activity and each subject, based on dataset stored in `data_final.csv`
+* `data_final.txt`: Result tidy dataset with mean and sd measurements, subject and activity from both training and the test sets
+* `data_avg.txt`: Result tidy dataset with the average of each variable for each activity and each subject, based on dataset stored in `data_final.txt`
 * `CodeBook.md`: A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
 
 ## Code algorithm

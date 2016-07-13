@@ -1,5 +1,5 @@
 # CodeBook
-This code book describes variables in final dataset from `data_final.csv` file and average dataset from `data_avg.csv` file.
+This code book describes variables in final dataset from `data_final.txt` file and average dataset from `data_avg.txt` file.
 
 ## Final dataset
 
