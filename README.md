@@ -1,5 +1,5 @@
 # GetDataCourseProject
-Getting and Cleaning Data Course Project by Maksym Gontar, max.gontar@gmail.com
+Getting and Cleaning Data course project by Maksym Gontar, max.gontar@gmail.com
 
 ## Description
 This repository contains course project assignment for "Getting and Cleaning Data" course of Johns Hopkins University hosted on Coursera:  https://www.coursera.org/learn/data-cleaning
@@ -16,7 +16,8 @@ The repository contains following files:
 * `CodeBook.md`: A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
 
 ## Code algorithm
-Code in run_analysis.R file can be grouped in following steps:
+Code in `run_analysis.R` file can be grouped in following steps:
+
 1. setup variables, such as file names, column names, column types, column widths
 2. reading data from HARUSDS files
 3. combining data from different files and sets 
@@ -27,7 +28,7 @@ Code in run_analysis.R file can be grouped in following steps:
 8. calculating average for every measurement grouped by activity and subject
 9. saving average tidy dataset
 
-Also see code commentaries in run_analysis.R
+Also see code commentaries in `run_analysis.R`
 
 ## Required R packages
 Code in run_analysis.R file requires following packages to run properly:
